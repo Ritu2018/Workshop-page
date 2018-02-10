@@ -1,0 +1,43 @@
+.workshop-list{
+    display: block;
+    justify-content: center;
+}
+.workshop{
+    min-width: 30vw;
+    width: 100%;
+    display: block;
+    text-align: center;
+    box-shadow: 0 0 7px #8f8a8a6e;
+    margin: 1em auto;
+
+}
+.workshop-name{
+    padding: 1em;
+}
+.workshop-logo,.workshop-logo img {
+    display: inline-block;
+    max-width: 100%;
+}
+@media (min-width: 768px){
+
+    .workshop-list {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .workshop {
+        flex: 1;
+        width: 30vw;
+        min-width: 30vw;
+        max-width: 30vw;
+        box-shadow: 0 0 7px #8f8a8a6e;
+        margin: 1% 1% 1em 1%;
+    }
+    .workshop-logo,.workshop-logo img {
+        display: inline-block;
+        max-width: 100%;
+    }
+    .dept_logo {
+        height: 15vw;
+        width: 15vw;
+    }
+}
